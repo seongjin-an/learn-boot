@@ -1,1 +1,3 @@
+# WAS에게 실행할 초기화 클래스를 알려줘야 한다.
 hello.container.MyContainerInitV1
+hello.container.MyContainerInitV2
