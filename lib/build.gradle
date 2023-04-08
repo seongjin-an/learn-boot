@@ -21,7 +21,7 @@ repositories {
     mavenCentral()
 }
 
-
+ext['tomcat.version'] = '10.1.4'
 dependencies {
 /*
     //1. 라이브러리 직접 지정
