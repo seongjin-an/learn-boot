@@ -3,4 +3,5 @@ embeded
 boot
 lib
 autoconfig
-memory-v1-start
+memory-v1
+project-v1
