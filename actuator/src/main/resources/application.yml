@@ -1,5 +1,12 @@
 management:
+  endpoint:
+    shutdown:
+      enabled: true
   endpoints:
     web:
       exposure:
         include: "*"
+        exclude: "env,beans"
+    jmx:
+      exposure:
+        include: "health,info"
