@@ -26,3 +26,7 @@ info:
     name: hello-actuator
     company: sj
   copyright: SJ
+
+logging:
+  level:
+    hello.controller: debug
