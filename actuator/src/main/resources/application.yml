@@ -1,4 +1,11 @@
 management:
+  info:
+    java:
+      enabled: true
+    os:
+      enabled: true
+    env:
+      enabled: true
   endpoint:
     shutdown:
       enabled: true
@@ -13,3 +20,9 @@ management:
     jmx:
       exposure:
         include: "health,info"
+
+info:
+  app:
+    name: hello-actuator
+    company: sj
+  copyright: SJ
